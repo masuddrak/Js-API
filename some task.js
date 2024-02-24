@@ -1,11 +1,3 @@
-
-// for lop way
-const arr=[1,3,5,7,9]
-let eventArr=[]
-for(let i=0; i<arr.length; i++){
-    eventArr.push(arr[i]+1)
-}
-// console.log(eventArr)
-// array map mathod using 
-const newArray=arr.map(number=>number+1)
-console.log(newArray)
+const arr=[33,50,79,78,90,101,30]
+const divisable10Arr=arr.filter(number=>number%10==0)
+console.log(divisable10Arr)
