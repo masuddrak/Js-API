@@ -6,6 +6,7 @@ function add(num1, num2) {
     return sum
 }
 // const result=add(2,5)
+console.log(typeof add)
 
 const funllName = (first, last) => first + last
 const result = funllName("ali", "hosssin")

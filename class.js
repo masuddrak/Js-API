@@ -4,6 +4,11 @@ class Teacher{
         this.subject=subject
     }
 }
-const subinSir=new Teacher("Subin","Physice")
-const mrubSir=new Teacher("Marup","Chemistry")
-console.log(mrubSir)
+class TopTecher extends Teacher{
+    constructor(name,subject,age){
+        super(name,subject)
+        this.age=age
+    }
+}
+const topTecher=new TopTecher("ali","Bangla",55)
+console.log(topTecher)
