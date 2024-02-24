@@ -1,18 +1,17 @@
-
-const num1 = 5;
-const num2 = 2;
-function add(num1, num2) {
-    num1 = 6
-    console.log(num1 + num2)
+function added(...arguments){
+    console.log(arguments)
 }
-// add(num1,num2)
-
-function multiply(numbers){
-    numbers[0]=55
-    console.log(numbers);
-}
-
-const numbers = [1, 96, 9, 6, 7]
-console.log(numbers)
-const newNumbers= multiply(numbers)
-console.log(newNumbers)
+const totals=added(1,2,3,6,5)
+let p='Javascript'; 
+let q=p; 
+p='React'; 
+console.log(p);
+const isTrue=true;
+console.log(!isTrue ? "hello" : "world")
+const sum =(p, q)=> 
+    p + q;
+   
+    function work(x, y = 4) {
+        return x + y;
+       }
+       console.log(work(32));
