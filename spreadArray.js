@@ -1,6 +1,10 @@
-const numbers=[1,2,3,4,5,6]
-const [a,b,c,...d]=numbers
-for(let i of d){
-    console.log(i)
+const person={
+    name:"hero alom",
+    age:25,
+    address:{
+        city:"Rangpur",
+        village:"Panwapar"
+    }
 }
-// console.log(a,b,c,d)
+const {age, ...homeAdress}=person
+console.log(homeAdress)
